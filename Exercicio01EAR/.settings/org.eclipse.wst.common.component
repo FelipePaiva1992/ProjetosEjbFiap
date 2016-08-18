@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Exercicio01EAR">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="Exercicio01.jar" deploy-path="/" handle="module:/resource/Exercicio01/Exercicio01">
+            <dependent-object>Module_1471480286542</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Exercicio01Client.jar" deploy-path="/" handle="module:/resource/Exercicio01Client/Exercicio01Client">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Exercicio01Web.war" deploy-path="/" handle="module:/resource/Exercicio01Web/Exercicio01Web">
+            <dependent-object>Module_1471480596323</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
