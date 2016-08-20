@@ -15,5 +15,6 @@
 			<li>${liv.titulo}</li>
 		</c:forEach>
 	</ul>
+	<input type="button" onclick="window.location.href='cadastro.jsp'" value="Cadastrar">
 </body>
 </html>
