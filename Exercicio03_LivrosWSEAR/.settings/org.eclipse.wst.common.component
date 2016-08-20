@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Exercicio03_LivrosWSEAR">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="Exercicio03_LivrosWS.jar" deploy-path="/" handle="module:/resource/Exercicio03_LivrosWS/Exercicio03_LivrosWS">
+            <dependent-object>Module_1471718847460</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Exercicio03_LivrosWSClient.jar" deploy-path="/" handle="module:/resource/Exercicio03_LivrosWSClient/Exercicio03_LivrosWSClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Exercicio03_LivrosJSF.war" deploy-path="/" handle="module:/resource/Exercicio03_LivrosJSF/Exercicio03_LivrosJSF">
+            <dependent-object>Module_1471718977399</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

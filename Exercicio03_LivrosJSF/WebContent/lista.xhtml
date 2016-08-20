@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Insert title here</title>
+</head>
+<body>
+	<h:form>
+		<label>Titulo</label><br/>
+		<h:inputText value="#{livrosMB.livro.titulo}"></h:inputText>
+		<br/><br/>
+		<label>Autor</label><br/>
+		<h:inputText value="#{livrosMB.livro.autor}"></h:inputText>
+		<br/><br/>
+		<label>Preço</label><br/>
+		<h:inputText value="#{livrosMB.livro.preco}"></h:inputText>
+		<br/><br/>
+		<h:commandButton action="#{livrosMB.adicionarLivro}" value="Adicionar"></h:commandButton>
+	</h:form>
+	<br/>
+	<br/>
+	<br/>
+	<h:dataTable value="#{livrosMB.livros}" var="l" rendered="#{not empty livrosMB.livros}">
+		<h:column>
+			<f:facet name="header">Titulo</f:facet>
+			#{l.titulo}
+		</h:column>	
+		<h:column>
+			<f:facet name="header">Autor</f:facet>
+			#{l.autor}
+		</h:column>	
+		<h:column>
+			<f:facet name="header">Preço</f:facet>
+			#{l.preco}
+		</h:column>		
+	</h:dataTable>
+</body>
+</html>

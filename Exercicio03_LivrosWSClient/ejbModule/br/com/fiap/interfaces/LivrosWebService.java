@@ -1,4 +1,4 @@
-package br.com.fiap.bean;
+package br.com.fiap.interfaces;
 
 import java.util.List;
 
@@ -10,8 +10,8 @@ import br.com.fiap.entity.Livros;
 @Remote
 @WebService(name = "LivrosWebServicePortType",
 targetNamespace = "http://jaxws.exemplos.fiap.com.br") 
+public interface LivrosWebService {
 
-public interface LivrosBeanRemote {
 	void add(Livros livro);
 
 	List<Livros> getAll();
