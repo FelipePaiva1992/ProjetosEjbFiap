@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ECommerceEJBEAR">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="ECommerceEJB.jar" deploy-path="/" handle="module:/resource/ECommerceEJB/ECommerceEJB">
+            <dependent-object>Module_1472681116939</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ECommerceEJBClient.jar" deploy-path="/" handle="module:/resource/ECommerceEJBClient/ECommerceEJBClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ECommerceJSF.war" deploy-path="/" handle="module:/resource/ECommerceJSF/ECommerceJSF">
+            <dependent-object>Module_1472681170994</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ECommerceServlet.war" deploy-path="/" handle="module:/resource/ECommerceServlet/ECommerceServlet">
+            <dependent-object>Module_1472686547739</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

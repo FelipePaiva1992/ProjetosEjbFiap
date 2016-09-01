@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/br/com/fiap/webservice/Comentario.java=UTF-8
+encoding//src/br/com/fiap/webservice/ComentarioEndPoint.java=UTF-8
+encoding//src/br/com/fiap/webservice/ComentarioEndPointLocator.java=UTF-8
+encoding//src/br/com/fiap/webservice/ComentarioEndPointSoapBindingStub.java=UTF-8
+encoding//src/br/com/fiap/webservice/IComentarioEndpoint.java=UTF-8
